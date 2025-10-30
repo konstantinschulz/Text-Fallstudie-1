@@ -1,5 +1,5 @@
-# yaml-language-server: $schema=https://quadriga-dk.github.io/quadriga-schema/v1.0.0-alpha/schema.json
-schema-version: 1.0.0-alpha
+# yaml-language-server: $schema=https://quadriga-dk.github.io/quadriga-schema/v1.0.0/schema.json
+schema-version: 1.0.0
 book-version: 1.0.0-beta.3
 title: Waves of the Spanish Flu – Case Study
 identifier: https://doi.org/10.5281/zenodo.14970672
@@ -28,6 +28,7 @@ contributors:
 - given-names: Lamia
   family-names: Islam
   affiliation: Universität Potsdam
+language: deu
 table-of-contents: '- Präambel
 
   - Fragestellung und Operationalisierung. Einführung in die Fallstudie
@@ -79,12 +80,12 @@ chapters:
       am Beispiel der Medienwellen-Forschung zur Spanischen Grippe nachvollzogen und
       erläutert werden.
     competency: 1 Konzeptualisierung
-    data-flow: 1 Plannung
+    data-flow: 1 Planung
     blooms-category: 2 Verstehen
   - learning-objective: Der Operationalisierungsprozess kann am Beispiel der Spanischen
       Grippe nachvollzogen und auf andere Forschungsfragen übertragen werden.
     competency: 2 Formalisierung
-    data-flow: 2 Erhebung
+    data-flow: 2 Erhebung und Aufbereitung
     blooms-category: 3 Anwenden
 - title: Korpusaufbau. Auswählen, sammeln, dokumentieren
   url: https://quadriga-dk.github.io/Text-Fallstudie-1/corpus_collection/corpus-collection_intro.html
@@ -96,7 +97,7 @@ chapters:
   - learning-objective: Korpora können als geisteswissenschaftliche Forschungsobjekte
       definiert und deren wesentliche Merkmale beschrieben werden.
     competency: 1 Konzeptualisierung
-    data-flow: 2 Erhebung
+    data-flow: 2 Erhebung und Aufbereitung
     blooms-category: 2 Verstehen
   - learning-objective: Die vier Hauptformate digitaler Texte (Bilddigitalisate, Plain
       Text, XML/TEI, CSV) können anhand ihrer charakteristischen Eigenschaften unterschieden
@@ -108,7 +109,7 @@ chapters:
       METS) und deren charakteristische Elemente für Korpora und Einzeldokumente können
       beschrieben werden.
     competency: 3 Datenmodellierung
-    data-flow: 2 Erhebung
+    data-flow: 2 Erhebung und Aufbereitung
     blooms-category: 2 Verstehen
   - learning-objective: Der schrittweise Prozess des praktischen Korpusaufbaus (Konzeptentwicklung,
       Metadatenerstellung und Datensammlung) kann am Beispiel eines Zeitungskorpus
@@ -203,18 +204,18 @@ chapters:
       zwischen absoluten und relativen Häufigkeiten beschrieben und die Darstellungsmethoden
       des Liniendiagramms und der Key Word in Context (KWIC)-Anzeige interpretiert
       werden.
-    competency: 10 Fachspezifische datenanalyse
+    competency: 9 Datenanalyse
     data-flow: 4 Analyse
     blooms-category: 2 Verstehen
   - learning-objective: Die notwendigen Schritte zur Frequenzanalyse eines semantischen
       Felds können aufgezählt, Unterschiede in der Berechnung der Häufigkeiten benannt
       und die Ergebnisse reflektiert werden.
-    competency: 10 Fachspezifische datenanalyse
+    competency: 9 Datenanalyse
     data-flow: 4 Analyse
     blooms-category: 5 Bewerten
   - learning-objective: Die Darstellungsmethode Keywords in Context kann beschrieben,
       Wörter zur Anzeige ausgewählt und diese angezeigt werden.
-    competency: 11 Visualisierung
+    competency: 10 Visualisierung
     data-flow: 5 Visualisierung
     blooms-category: 3 Anwenden
 - title: Reflexion
@@ -231,7 +232,7 @@ chapters:
   learning-objectives:
   - learning-objective: Die methodischen Limitationen einer Digital Humanities-Fallstudie
       können benannt werden.
-    competency: 7 Interpretation
+    competency: 11 Interpretation
     data-flow: nicht anwendbar
     blooms-category: 5 Bewerten
 target-group:
@@ -243,6 +244,7 @@ date-published: '2024-06-17'
 date-modified: '2025-08-21'
 context-of-creation: 'Die vorliegenden Open Educational Resources wurden durch das
   Datenkompetenzzentrum QUADRIGA erstellt.
+
 
   Förderkennzeichen: 16DKZ2034'
 url: https://quadriga-dk.github.io/Text-Fallstudie-1/
